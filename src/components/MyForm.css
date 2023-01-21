@@ -1,0 +1,51 @@
+body{
+    background: rgb(125, 146, 125);
+}
+
+form{
+    background: rgb(209, 204, 204);
+    margin: 0 auto ;
+    text-align: left;
+    animation-name: fade;
+    animation-duration: 1.7s;
+    width: 350px;
+    height: 300px;
+    margin-left: 200px;
+
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+input, textarea , select , textarea{
+    display: block;
+    margin-top: 10px;
+    border-radius: 6px;
+    
+}
+.daniel{
+    width: 900px;
+    margin-left: 300px;
+}
+
+.asaph{
+    width: 450px;
+    margin: 20 auto;
+    padding: 10 px;
+}
+
+.camila{
+    width: 300px;
+    margin-left: 50px;
+}
+textarea {
+    height: 70px;
+}
